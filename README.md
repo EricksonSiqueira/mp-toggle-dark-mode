@@ -1,29 +1,34 @@
-# [💻 Toggle de Dark Mode Animado com Tailwind CSS](https://codante.io/mini-projetos/toggle-dark-mode-animado)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Você descobriu que a luz azul emitida pelo monitor pode atrapalhar o sono das pessoas. Com você se preocupa com o bem-estar das pessoas que usam seu app, você decidiu implementar um switch entre dark mode e light mode na sua aplicação. Sua sorte é que você estava usando TailwindCSS, então seu trabalho vai ser muito mais prazeroso.
+## Getting Started
 
-Neste mini projeto, você terá a oportunidade de explorar os recursos do Tailwind CSS para implementar um toggle de dark mode elegante e interativo.
+First, run the development server:
 
-## 🔨 Requisitos
-- Implemente um Toggle de Dark Mode que permita aos usuários alternar entre os modos claro e escuro da interface.
-- Utilize as classes do Tailwind CSS para estilizar o Toggle e os elementos relacionados.
-- Adicione animações e transições para fornecer uma experiência agradável ao alternar entre os modos.
-- Adicione um som ao clicar no toggle.
-- Use a criatividade para construir uma experiência única. Temos uma sugestão de design disponível, mas esse é um mini-projeto que vale a pena deixar a criatividade fluir!
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-## 🔍 Dicas
-- Verifique a documentação do Tailwind sobre como implementar o dark mode.
-- Garanta que sua aplicação não "pisque" ao recarregar a página. Um problema comum ao implementar o dark mode é que quando o padrão é o modo claro, mas a pessoa salvou a preferência do modo escuro, a aplicação "pisca" ao transicionar do modo claro para o modo escuro. 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🎨 Inspiração de Design
-[🔗 Link para o Figma com o Design Sugerido](https://www.figma.com/file/suvmja6210ggZOO6Cpehjl/Mini-Projetos---Codante.io?type=design&node-id=563-2&t=Nf5bd9PYvgPCxd4X-0)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-![image](https://github.com/codante-io/mp-toggle-dark-mode/assets/6475893/4ebb6756-f98d-4e14-826a-80a6a86205b2)
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
 
-## 💡 Inspiração
-Confira estes exemplos para se inspirar na implementação do Toggle de Dark Mode:
-  - [Site do Josh Comeau](https://www.joshwcomeau.com/)
-  - [Site do Codante](https://codante.io)
-  - [O toggle mais satisfatório do mundo](https://svarden.se/post/the-worlds-most-satisfying-toggle?utm_source=stefanjudis)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
